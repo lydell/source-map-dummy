@@ -1,0 +1,30 @@
+{
+  "name": "source-map-dummy",
+  "version": "0.1.0",
+  "author": "Simon Lydell",
+  "license": "MIT",
+  "description": "Creates “dummy” source maps.",
+  "main": "index.js",
+  "repository": "lydell/source-map-dummy",
+  "keywords": [
+    "source map",
+    "source-map",
+    "source",
+    "map",
+    "dummy",
+    "concatenate",
+    "concat"
+  ],
+  "scripts": {
+    "test": "jshint index.js test/index.js && mocha"
+  },
+  "dependencies": {
+    "css-tokens": "~0.1.0",
+    "js-tokens": "~0.1.0",
+    "source-map": "~0.1.33"
+  },
+  "devDependencies": {
+    "mocha": "^1.17.1",
+    "jshint": "^2.4.4"
+  }
+}
