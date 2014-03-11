@@ -165,10 +165,10 @@ describe("createDummySourceMap", function() {
 
   it("tokenizes CSS", function() {
     assertMappings(
-      ["#",   "foo", "[",   "attr", "=",   "'value'", "]",    "{",
+      ["#foo", "[",   "attr", "=",   "'value'", "]",    "{",
        "\n  ", "margin", ":", " ", "0",
        "\n", "}"                                                     ],
-      [[1,0], [1,1], [1,4], [1,5],  [1,9], [1,10],    [1,17], [1,18],
+      [[1,0],  [1,4], [1,5],  [1,9], [1,10],    [1,17], [1,18],
                [2,2],    [2,8],    [2,10],
              [3,0]                                                   ],
       "css"
@@ -200,11 +200,13 @@ describe("createDummySourceMap", function() {
       [8,1,0],     // Inside namespace prefix.
       [11,31,30],  // Inside `^=` operator.
       [13,9,0],    // Inside name with escape.
-      [16,15,11],  // Inside number with exponent.
-      [19,14,2],   // Inside vendor prefixed property name.
-      [20,38,11],  // Inside string within string.
-      [25,20,20],  // At `%`.
-      [33,0,0]     // Last character. `}`.
+      [14,2,0],    // Inside id.
+      [15,11,9],   // Inside hex color.
+      [18,15,11],  // Inside number with exponent.
+      [21,14,2],   // Inside vendor prefixed property name.
+      [22,38,11],  // Inside string within string.
+      [27,20,20],  // At `%`.
+      [35,0,0]     // Last character. `}`.
     ])
   })
 
