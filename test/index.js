@@ -202,8 +202,9 @@ describe("createDummySourceMap", function() {
       [13,9,0],    // Inside name with escape.
       [16,15,11],  // Inside number with exponent.
       [19,14,2],   // Inside vendor prefixed property name.
-      [24,20,20],  // At `%`.
-      [32,0,0]     // Last character. `}`.
+      [20,38,11],  // Inside string within string.
+      [25,20,20],  // At `%`.
+      [33,0,0]     // Last character. `}`.
     ])
   })
 
