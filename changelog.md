@@ -1,3 +1,10 @@
+### Version 0.3.0 (2014-06-19) ###
+
+- Update css-tokens to 0.3.0 and js-tokens to 0.2.0, which means slightly
+  different CSS and JS tokenization, which means slightly different mappings.
+  (Backwards-incompatible change.)
+
+
 ### Version 0.2.0 (2014-03-11) ###
 
 - Update css-tokens to 0.2.0, which means slightly different CSS tokenization,
