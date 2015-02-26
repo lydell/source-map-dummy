@@ -1,4 +1,4 @@
-Overview [![Build Status](https://travis-ci.org/lydell/source-map-dummy.png?branch=master)](https://travis-ci.org/lydell/source-map-dummy)
+Overview [![Build Status](https://travis-ci.org/lydell/source-map-dummy.svg?branch=master)](https://travis-ci.org/lydell/source-map-dummy)
 ========
 
 Creates “dummy” source maps.

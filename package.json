@@ -1,6 +1,6 @@
 {
   "name": "source-map-dummy",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "author": "Simon Lydell",
   "license": "MIT",
   "description": "Creates “dummy” source maps.",
