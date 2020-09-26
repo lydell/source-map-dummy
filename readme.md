@@ -1,3 +1,8 @@
+Deprecated
+==========
+
+This is a bad package. You might be able to take some inspiration from it, but don’t use it.
+
 Overview [![Build Status](https://travis-ci.org/lydell/source-map-dummy.svg?branch=master)](https://travis-ci.org/lydell/source-map-dummy)
 ========
 
